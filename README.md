@@ -21,3 +21,7 @@ HC-SR04로 거리를 측정한다.
 ![PuTTY 시리얼 출력과 STM32CubeIDE 코드](images/putty_output.png)
 
 ![오실로스코프 측정 파형](images/oscilloscope.png)
+
+### SWV
+
+![SWV 데이터 트레이스 타임라인 그래프](images/swv.png)
