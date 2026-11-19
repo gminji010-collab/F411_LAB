@@ -8,8 +8,7 @@ HC-SR04로 거리를 측정한다.
 
 ![NUCLEO-F411RE 보드 연결](images/board.png)
 
-<details>
-<summary><b>하드웨어</b></summary>
+### 하드웨어
 
 | 항목 | 내용 |
 |------|------|
@@ -20,18 +19,13 @@ HC-SR04로 거리를 측정한다.
 | 타이머 | TIM1, 1 MHz (1 tick = 1 µs) |
 | 시리얼 | USART2, 115200 8N1 (PuTTY로 확인) |
 
-</details>
-
 ![PuTTY 시리얼 출력과 STM32CubeIDE 코드](images/putty_output.png)
 
 ![오실로스코프 측정 파형](images/oscilloscope.png)
 
-<details>
-<summary><b>SWV</b></summary>
+### SWV
 
 ![SWV 데이터 트레이스 타임라인 그래프](images/swv.png)
-
-</details>
 
 </details>
 
@@ -41,6 +35,8 @@ HC-SR04로 거리를 측정한다.
 ![NUCLEO-F411RE 핀맵](images/pinout.png)
 
 ![핀 할당 표](images/pin_table.png)
+
+![NUCLEO-F411RE 보드 연결 (초음파+온습도)](images/board_dht.png)
 
 ![STM32CubeIDE 코드와 PuTTY 출력](images/ide_putty_dht.png)
 
